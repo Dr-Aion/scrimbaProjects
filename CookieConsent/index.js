@@ -20,6 +20,9 @@ consentForm.addEventListener('submit', function(e){
             Uploading your data to the dark web...
         </p>
     </div>`
+    setTimeout(function(){
+        document.getElementById('upload-text').innerText = `Making the sale...`
+    }, 1500) 
 /*
 Challenge:
 1. Take control of the "modal-text" element. 
